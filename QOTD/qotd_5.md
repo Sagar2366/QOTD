@@ -1,8 +1,4 @@
-Difficulty: Complex
-Tech Stack: AWS, Kubernetes, Docker, ArgoCD, Prometheus, Grafana
-Question: Suppose you are given the task to design and build a fault-tolerant and scalable architecture for a heavily used multi-tier web application. We are planning to use AWS as our cloud infrastructure. The application needs to support Kubernetes for container orchestration, Docker for containerization, ArgoCD for GitOps, Prometheus and Grafana for monitoring and observability. Can you describe how you'd build this infrastructure and why you'd make those decisions? Be sure to touch upon networking, storage, scaling, database management, and cost optimization aspects too.
-Hint: Take a step by step approach. Start with explaining how you'd set up the AWS Infrastructure (VPC, Subnets, Load Balancers, etc.), then move on to the Kubernetes architecture (Nodes, Pods, Services, etc.). Include containerization with Docker, deployment with ArgoCD, Monitoring setup with Prometheus and Grafana. Also, speak about storage (EBS/EFS), scaling (using K8s autoscaling based on metrics), database management (RDS), and cost-balance mechanism. Consider high availability and disaster recovery in your answer too.
-Answer: 
+\n Answer: 
 
 1. **AWS Infrastructure:** 
 Start by setting up the Virtual Private Cloud (VPC) in AWS. Create public and private subnets for isolating resources and managing access. Then utilize Elastic Load Balancer (ELB) for distributing incoming app traffic across multiple targets such as EC2 instances. 
@@ -32,4 +28,5 @@ Use Amazon RDS for the database layer. Enable Multi-AZ deployment for high avail
 Leverage AWS Spot instances for your worker nodes. They are much cheaper when compared to on-demand instances. Just ensure that the architecture can handle occasional Spot instance reclaims.
 
 10. **Disaster Recovery:**
-For disaster recovery, perform regular backups of the application, Database, and K
+For disaster recovery, perform regular backups of the application, Database, and K \n
+
