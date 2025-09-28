@@ -1,0 +1,4 @@
+Difficulty: Moderate
+Tech Stack: Kubernetes, Docker, Grafana, Prometheus
+Question: Imagine you are running a moderately complex application in a Kubernetes cluster, which includes 3 databases, 2 back-end services, and a front-end service. All services have been containerized using Docker and they're running smoothly. Suddenly, you receive an alert that your front-end service is not responding. Describe the process you would use to troubleshoot this issue, and the steps you would take to ensure the system’s performance and monitoring in the future.
+Hint: Think about the tools and strategies involved in monitoring services in a Kubernetes cluster and how Grafana and Prometheus could be utilized. It's also helpful to describe a methodology for troubleshooting the problem, step-by-step.
