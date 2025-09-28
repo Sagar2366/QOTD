@@ -19,6 +19,3 @@ If we need to return to a previous application version (Blue environment), we ke
 Diagram/Example: 
 In this case, a diagram or code example isn't applicable as the processes mentioned are more operational and visualized through the orchestration of multi
 
-
-
-Counter: 
