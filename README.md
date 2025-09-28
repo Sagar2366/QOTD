@@ -1,2 +1,2 @@
 # QOTD
-Total Questions: 2
+Total Questions: 0
