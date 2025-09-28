@@ -1,0 +1,4 @@
+Difficulty: Complex
+Tech Stack: ArgoCD, Kubernetes, AWS, Terraform
+Question: Imagine you're using ArgoCD for GitOps deployments in a Kubernetes ecosystem spread over AWS and an on-premises data center. Over time, you notice that ArgoCD is hanging and not deploying updates for certain manifests, causing deployment delays. What steps would you take to diagnose and address this issue?
+Hint: Consider the architecture of the system. How does ArgoCD interact with Kubernetes, AWS and the on-premises data center? How does it sync and track changes from the Git repository? You might want to examine the logs and conditions of the ArgoCD and Kubernetes pods, and review the cluster health and connectivity. Think about network issues, resource limitations, permissions, etc. It may not be a single issue and could be a combination of several factors, so explain how you'll isolate each potential cause.
