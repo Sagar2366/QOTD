@@ -1,0 +1,4 @@
+Difficulty: Moderate
+Tech Stack: Docker, Jenkins, CI/CD
+Question: As part of a team, you're working on a web application that uses a microservice architecture. You've been asked to implement a CI/CD pipeline using Jenkins and Docker to automate deployments. However, one of the microservices fails to deploy consistently and is causing issues in the pipeline. Describe your process of troubleshooting and resolving this issue.
+Hint: Consider all aspects, such as the Dockerfile configuration, the Jenkins pipeline configuration, and environment-specific issues. Remember that logs are often your best friend when debugging deployments.
