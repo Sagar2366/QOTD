@@ -1,8 +1,4 @@
-Difficulty: Moderate
-Tech Stack: Docker, Kubernetes
-Question: You are working on a production Kubernetes cluster and you find that one of the applications is getting killed by itself randomly. The application doesn't log anything that suggests any error. As a SRE, what steps would you take to diagnose the issue and fix it?
-Hint: Think about using Kubernetes built-in debugging tools, checking system resource utilization, and validating the application's configuration. Kubernetes Events and pod's status could be very beneficial.
-Answer: I would approach the issue using the following steps:
+\n Answer: I would approach the issue using the following steps:
 
 1. **Checking the status of the pods**: The status of pods can provide a lot of details about the application. Using the `kubectl get pods` command will provide information about the status of all pods, and `kubectl describe pod [pod name]` will provide the events and details associated with a particular pod. 
 
@@ -22,4 +18,5 @@ $ kubectl get events
 $ kubectl top pods
 $ kubectl logs my-pod
 ```
-Keep in mind the above steps would vary based on the actual issue and more steps might be required for a complete diagnosis.
+Keep in mind the above steps would vary based on the actual issue and more steps might be required for a complete diagnosis. \n
+
