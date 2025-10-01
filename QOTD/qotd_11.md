@@ -1,8 +1,4 @@
-Difficulty: Complex
-Tech Stack: AWS, Terraform, Cost optimization
-Question: You are managing an infrastructure setup on AWS for your company, which includes multiple services like EC2 instances, Lambdas, RDS instances, etc. Your company is looking to reduce AWS costs without hampering the performance or scalability. Explain how you would use Terraform to design and manage the infrastructure to achieve cost optimization.
-Hint: Consider leveraging reserved instances, spot instances, right-sizing resources, choose appropriate storage classes, shut down idle resources, and auto-scaling. Also explain how terraform variables, modules and cloud-init scripts would assist in achieving the goal.
-Answer: Terraform can play a critical role in managing and optimizing your AWS infrastructure costs. Here's how:
+\n Answer: Terraform can play a critical role in managing and optimizing your AWS infrastructure costs. Here's how:
 
 1. Reserved and Spot instances: Use Terraform to spin up Reserved Instances (RI) for services that require 24/7 availability. Terraform helps automate purchasing and assigning of Reserved Instances, which can lead up to 75% cost reduction over On-Demand instances. For non-critical or non-continuous services, leverage Spot Instances which can be up to 90% cheaper. Terraform can manage the lifecycle of Spot Instances, handling interruptions automatically.
 
@@ -16,4 +12,5 @@ Answer: Terraform can play a critical role in managing and optimizing your AWS i
 
 6. Terraform variables and modules: You can design Terraform variables and modules for reusable, parameterized, and customizable infrastructure code, helping to reduce unnecessary resources and support cost optimization. 
 
-7. Cloud-Init Scripts: Cloud-Init scripts can be used with Terraform for automating tasks on instance initial boot time. For example, it can clean up resources which are no longer needed, effecti
+7. Cloud-Init Scripts: Cloud-Init scripts can be used with Terraform for automating tasks on instance initial boot time. For example, it can clean up resources which are no longer needed, effecti \n
+
