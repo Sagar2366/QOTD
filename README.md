@@ -1,2 +1,2 @@
 # QOTD
-Total Questions: 14
+Total Questions: 15
